@@ -1,0 +1,37 @@
+body {
+    background-color: #F0FAEF;
+}
+
+#navbar {
+    background-color: #1D3557;
+}
+
+footer {
+    background-color: #1D3557;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#one {
+    background-color: #1D3557;
+}
+
+#two {
+    margin-bottom: 8px;
+    min-width: 80%;
+    font-size: 13px;
+}
+
+.input{
+max-width: 44%;
+margin: 0px 10px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    #two {
+        width: 100%;
+    }
+}
